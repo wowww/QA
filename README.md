@@ -366,7 +366,7 @@ https://validator.w3.org/unicorn/#validate-by-uri+task_conformance
 |FIREFOX에서 레이아웃 깨짐|확인 후 수정|
 |스크린리더를 이용하여 페이지 내 버튼, CTA 링크 등을 실행하면 상단 Sticky menu의 Highlights 링크가 실행 됨.<br>대상: Chrome|확인 후 수정|
 |Go to top 버튼 영역이 필요 이상으로 크게 잡혀 있어 다른 버튼 요소와 겹쳐질 경우 버튼 사용 불가.<br>대상: 모바일 레이아웃, 모바일 디바이스|버튼이 서로 겹쳐지지 않도록 수정.|
-
+| 제공 텍스트 내 오탈자. | 확인 후 수정 |
 
 참고자료 링크 1: https://www.youtube.com/c/AOA11Y/featured  
 참고자료 링크 2: https://github.com/FreedomScientific/VFO-standards-support  
