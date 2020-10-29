@@ -191,7 +191,7 @@
 
 | summary | 이슈 | 수정 예시 |
 | -------- | -------- | -------- |
-| 스킵내비게이션 미제공     | SkipNavigation 미제공. 콘텐츠의 반복되는 영역(GNB 메뉴)을 건너뛸 수 있는 링크가 제공되지 있지 않음.     | 반복되는 영역(GNB, LNB)을 건너뛸 수 있는 스킵내비게이션을 제공해야 함Ex) Samsung.com/uk의 ‘skip to content’ 링크     |
+| 스킵내비게이션 미제공     | SkipNavigation 미제공. 콘텐츠의 반복되는 영역(GNB 메뉴)을 건너뛸 수 있는 링크가 제공되지 있지 않음.     | 반복되는 영역(GNB, LNB)을 건너뛸 수 있는 스킵내비게이션을 제공해야 함Ex) sample.com/uk의 ‘skip to content’ 링크     |
 |스킵 기능 오류|스킵 네비게이션 링크가 동작하지 않음.|기능 확인 후 수정|
 
 
@@ -277,7 +277,7 @@
 | -------- | -------- | -------- |
 | Label 미제공(title 미제공)     | {서식 지칭} 서식 요소에 label 미제공     | label을 제공하거나 title 속성을 이용하여 입력 서식에 대한 정보를 제공해야 함.(label을 제공할 경우, input 요소와 연결되도록 알맞은 id/for를 설정해야 함)  |
 |Label 설정 오류(for/id 설정값이 매칭되지 않음)|label 설정 오류(for/id 설정값이 매칭되지 않음)|input 의 id 속성과 label 의 for 속성을 서로 매칭 되어야 함.|
-|Label 설정 오류(for/id 미설정)|label이 암묵적인 방법으로 제공 됨<br>(Samsung.com WCAG에서는 label와 서식 요소를 id와 for로 연결하는 명시적인 방법으로 설정 하도록 가이드 되어있음)|label을 제공하거나 title 속성을 이용하여 입력 서식에 대한 정보를 제공해야 함.(label을 제공할 경우, input 요소와 연결되도록 알맞은 id/for를 설정해야 함)|
+|Label 설정 오류(for/id 미설정)|label이 암묵적인 방법으로 제공 됨<br>(sample.com WCAG에서는 label와 서식 요소를 id와 for로 연결하는 명시적인 방법으로 설정 하도록 가이드 되어있음)|label을 제공하거나 title 속성을 이용하여 입력 서식에 대한 정보를 제공해야 함.(label을 제공할 경우, input 요소와 연결되도록 알맞은 id/for를 설정해야 함)|
 |autocomplete|입력 필드에 autocomplete 기능이 제공되지 않음.|input 목적에 맞는 autocomplete 속성을 제공해야 함. (HTML 5.2 autofill에 제공되는 속성값 사용) 단, 개인정보가 캐시에 저장되므로 개인정보 사용에 대한 사용자의 명시적인 동의가 있어야 함. ex) autocomplete=“name”|
 
 
